@@ -19,8 +19,10 @@ if 90 >score >=80:
     grade = 'B'
 if 80 >score >=70:
     grade = 'C'
+if 70 >score >=60:
+    grade = 'D'
 else:
-    if score < 70:
+    if score < 60:
         grade = 'F'
 print(grade)
 
