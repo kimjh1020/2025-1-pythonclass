@@ -62,4 +62,3 @@ print(john)
 del john[2] # john = [soup, [lamb,chicken]]
 john.extend([order[2][0:1]]) # john = [soup, [lamb,chicken], [apple]]
 print(john)
-
