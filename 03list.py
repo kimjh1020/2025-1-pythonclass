@@ -38,6 +38,8 @@ print(colors[1])
 c1,c2,c3, _,_,_, = colors
 print(c1,c2,c3)
 
+# 다차원 리스트
+
 #퀴즈
 first = ["egg", "salad", "bread", "soup", "canafe"]
 second = ["fish", "lamb", "pork", "beef", "chicken"]
