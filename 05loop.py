@@ -37,13 +37,8 @@ print(f'{sum=}')
 
 #while문
 i=0
-sumi=0
-while i < 100:
+sum=0
+while i <= 100:
+    sum = sum +i
     i = i+2
-    sumi = sumi +i
-print(f'{sumi=}')
-
-
-
-
-
+print(f'{sum=}')
