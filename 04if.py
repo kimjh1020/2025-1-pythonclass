@@ -15,14 +15,16 @@ print(grade)
 
 if score >=90:
     grade = 'A'
-if 90 >score >=80:
+elif score >=80:
     grade = 'B'
-if 80 >score >=70:
+elif score >=70:
     grade = 'C'
-if 70 >score >=60:
+elif score >=60:
     grade = 'D'
 else:
     if score < 60:
         grade = 'F'
 print(grade)
+
+
 
