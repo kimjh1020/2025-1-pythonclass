@@ -39,7 +39,7 @@ sumi=0
 while i < 100:
     i = i+2
     sumi = sumi +i
-print(f'{sumi=}')
+print(f'{sumi=}')b
 
 
 
