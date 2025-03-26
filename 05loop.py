@@ -17,3 +17,31 @@ for city in cities:
 string = 'python'
 for c in string:
     print(f'{c=}')
+
+i = 1
+while i < 10:
+    print(f'{i=}')
+    i = i+2
+
+# 1부터 100까지 홀수의 합
+sum = 0
+for i in range(1,100,2):
+    sum = sum + i
+print(f'{sum=}')
+
+# 1부터 100까지 짝수의 합
+sum = 0
+for i in range(0,101,2):
+    sum = sum + i
+print(f'{sum=}')
+i=0
+sumi=0
+while i < 100:
+    i = i+2
+    sumi = sumi +i
+print(f'{sumi=}')
+
+
+
+
+
