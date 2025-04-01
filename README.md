@@ -33,7 +33,8 @@
 
 # 프로젝트1: 파이값 구하기
 파이값을 구하고 그래프로 그림
-![img.png](img.png)
+
+![img.png](img/img.png)
 
 
  
