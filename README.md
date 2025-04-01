@@ -39,7 +39,7 @@
 ```
 n=1
 pi= 1
-while n< 1000:
+while n< 200:
     pi = pi * ((2 * n + 1) ** 2 - 1) / (2 * n + 1) ** 2
     n=n+1
     pilist.append(pi*4)
@@ -51,6 +51,7 @@ import matplotlib.pyplot as plt
 plt.plot(pilist)
 plt.show() 
 ```
+![img.png](img.png)
 
 
  
