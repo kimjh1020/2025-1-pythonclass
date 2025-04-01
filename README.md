@@ -51,7 +51,7 @@ import matplotlib.pyplot as plt
 plt.plot(pilist)
 plt.show() 
 ```
-![img.png](img.png)
+![img.png](img/img2.png)
 
 
  
