@@ -9,6 +9,7 @@
 maxvalue = 0
 maxvaluen = 0
 values = []
+
 n = 0
 if n % 2 == 0:
     print('짝수')
@@ -29,6 +30,7 @@ for n in range(1,100):
         else:
             break
     values.append(l)
+    backup = values.copy()
     print(l, '단계')
     #가장 많은 단계를 가진 수 구하기
     if maxvalue < l:
@@ -41,7 +43,12 @@ for n in range(1,100):
 print(f'{maxvalue=},{maxvaluen=}')
 print(values)
 values.sort(reverse=True)
-print('2ndvalue=',values[1],'2ndvaluen')
+print('2번째로 많은 단계수',values[1])
+values = backup
+index = values.index(115)
+print('2번째로 많은 단계수의 숫자',index+1)
+
+
 
 
 
