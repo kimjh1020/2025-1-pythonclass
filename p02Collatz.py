@@ -53,7 +53,7 @@ maxvaluen = 0
 maxvalue2=0
 maxvaluen2 = 0
 
-
+#다른방법
 n = 0
 if n % 2 == 0:
     print('짝수')
