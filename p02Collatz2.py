@@ -5,20 +5,12 @@ import numpy as np
 import statistics
 import time
 
-from numpy.ma.core import append
+from p02Collatzfunc import collatz
+
 
 maxnum=100
 
-def collatz(i):
-    ncount = 0
-    while i != 1:
-        if i % 2 == 0:
-            i = i / 2
 
-        elif i % 2 == 1:
-            i = 3 * i + 1
-        ncount = ncount + 1
-    return ncount
 #리스트방식
 start = time.time()
 ncountl = []
