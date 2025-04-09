@@ -45,7 +45,7 @@ print(values)
 values.sort(reverse=True)
 print('2번째로 많은 단계수',values[1])
 values = backup
-index = values.index(115)
+index = values.index(115) #이곳을 수동으로 수정한 후 실행
 print('2번째로 많은 단계수의 숫자',index+1)
 
 maxvalue = 0
@@ -60,7 +60,7 @@ if n % 2 == 0:
 else:
     print("홀수")
 l = 0
-for n in range(1,100):
+for n in range(1,100000):
     l=0
     nsave =n
     while n != 1 :
