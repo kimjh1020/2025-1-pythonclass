@@ -43,8 +43,10 @@ for n in range(1,maxnum):
 
 
 print(sum(ncountl)/len(ncountl))
+nmax = 0
 #평균,최대값,중앙값,최빈값,표준편차
 print(f'평균={np.mean(ncounta): 5f}')
+print(f'해당숫자{ncountl.index(118)}')
 print(f'최대값={np.max(ncounta)}')
 print(f'중앙값={np.median(ncounta)}')
 #print(f'최빈값={np.bincount(ncounta).argmax()}')
