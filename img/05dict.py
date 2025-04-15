@@ -14,6 +14,7 @@ print(inventory)
 print(inventory['매로나'][0])
 print(inventory['매로나'][1])
 #딕셔너리 추가
+# print(inventory['돼지바']) 키 추가 전이어서 애러남
 inventory['돼지바'] = [900,30]
 print(inventory)
 
