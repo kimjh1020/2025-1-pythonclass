@@ -31,6 +31,8 @@ print(wordcount)
 for key, value in  wordcount.items():
     print(f'{key}:{value}')
 
+
+
 # 두번째 버전: defaultdict
 from collections import defaultdict
 wordcount = defaultdict(lambda:0)
