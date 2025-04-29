@@ -40,3 +40,4 @@ for word in textlist:
     wordcount[word] += 1
 
 print(wordcount)
+
