@@ -1,5 +1,5 @@
 # 2024.4.30 파이썬 수업
-# bmi 예측 머신러닝에서 객체지향실습
+# bmi 예측 머신러닝에서 객체 지향실습
 
 import numpy as np
 
@@ -81,3 +81,4 @@ for bar in bars:
 plt.grid(axis='y', linestyle='--', alpha=0.5)
 plt.tight_layout()
 plt.show()
+
